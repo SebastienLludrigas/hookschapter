@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
-import Contenu from './Composants/Contenu';
+import Modale from './Composants/Modale'
+
 
 function App() {
   return (
     <div className="App">
-      <Contenu/>
+      <Modale />
     </div>
   );
 }
