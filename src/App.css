@@ -2,19 +2,3 @@
   text-align: center;
 }
 
-button {
-  margin-right: 20px;
-  margin-top: 50px;
-  font-size: 2em;
-  padding: 5px;
-  cursor: pointer;
-}
-
-p {
-  font-size: 2em;
-}
-
-img {
-  margin: 150px auto 0 auto;
-  width: 500px;
-}

@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './Modale.css';
 
-export default function Modale() {
+export default function Modale({ closeFunc, stopPropa }) {
    return (
-      <div>
-         
+      <div className="overlay" onClick={closeFunc}>
+         <div className="contenu" onClick={stopPropa}>
+            Hello Modale
+            <button className="btnClose" onClick={closeFunc}>Fermer</button>
+         </div>
       </div>
    )
 }
