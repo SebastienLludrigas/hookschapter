@@ -1,28 +1,13 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
-import Modale from './Composants/Modale'
+import Navbar from './Composants/Navbar';
 
 
 function App() {
 
-  const [toggleModale, setToggleModale] = useState(false);
-
-  const closeModale = (evt) => {
-    setToggleModale(false)
-  }
-
-  const stopPropa = (evt) => {
-    evt.stopPropagation();
-  }
-
-  const openModale = () => {
-    setToggleModale(true)
-  }
-
   return (
-    <div className="App">
-      <button onClick={openModale}>Ouvrir la Modale</button>
-      {toggleModale && <Modale closeFunc={closeModale} stopPropa={stopPropa}/>}
+    <div className="App"> 
+      <Navbar />
     </div>
   );
 }
