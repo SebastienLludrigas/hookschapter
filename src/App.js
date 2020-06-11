@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Composants/Navbar';
-import Compteur from './Composants/Compteur';
+import Counter from './Composants/Counter';
 
 
 function App() {
 
   return (
     <div className="App"> 
-      <Navbar />
-      <Compteur />
+      <Counter/>
     </div>
   );
 }
